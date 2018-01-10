@@ -1,16 +1,18 @@
 {
-  "name": "apidoc",
+  "name": "@toinane/apidoc",
   "version": "0.17.6",
   "description": "RESTful web API Documentation Generator",
   "author": "Peter Rottmann <rottmann@inveris.de>",
   "license": "MIT",
   "preferGlobal": true,
-  "bin": "bin/apidoc",
+  "bin": {
+    "apidoc": "bin/apidoc"
+  },
   "main": "./lib/index.js",
   "homepage": "http://apidocjs.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apidoc/apidoc.git"
+    "url": "git+https://github.com/apidoc/apidoc.git"
   },
   "bugs": {
     "url": "https://github.com/apidoc/apidoc/issues"
@@ -70,5 +72,10 @@
       "before",
       "after"
     ]
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   }
 }
